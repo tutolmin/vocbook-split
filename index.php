@@ -32,6 +32,6 @@ $book = new Book($books[0]);
 if ($book->load()) {
 	$book->split($parse);
 	print "Parts: " . count($book->parts) . "\r\n";
-	// $book->view_parts();
-	$book->save_parts();
+	$book->view_parts();
+//	$book->save_parts();
 }

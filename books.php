@@ -18,16 +18,16 @@
  */
 
 /** COMMENT LINE BELOW: **/
-throw new Exception("You must edit file `" . __FILE__ . "` to start work");
+//throw new Exception("You must edit file `" . __FILE__ . "` to start work");
 
 /** ADDS YOUR BOOKS BELOW: **/
 $books = [
-	// [
-	// 	"driver" => "local",
-	// 	"id" => realpath("/home/Fenex/Downloads/starkov_1-utf-8.txt"),
-	// 	"author" => "Сергей Абрамов",
-	// 	"title" => "В лесу прифронтовом"
-	// ],
+	[
+		"driver" => "local",
+		"id" => realpath("/home/andrei/vocbook-split/song1.txt"),
+		"author" => "Homer",
+		"title" => "Odyssey Song 1"
+	],
 	// Example for Windows, PHP <= 7.0 and cyrillic in path:
 	// [
 	// 	'driver' => 'local',
